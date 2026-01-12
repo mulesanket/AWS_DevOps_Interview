@@ -1,5 +1,5 @@
 ### Deployment Architecture of Application
-- Elevator
+#### Elevator
 
 * IRIS School Spider is a three-tier microservice application deployed on AWS across multiple Availability Zones for high availability.
 * The frontend is built using React with TypeScript (Vite) and is hosted on Amazon S3, delivered globally via CloudFront for low-latency access, with AWS WAF protecting the edge.
